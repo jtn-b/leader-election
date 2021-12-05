@@ -1,3 +1,20 @@
+4 Nodes connected to Zookeeper and a leader is elected
+![image 1](https://github.com/jtn-b/leader-election/blob/master/src/main/resources/leader-election.png)
+
+<br>
+
+
+Current leader dies, new leader elected
+![image 2](https://github.com/jtn-b/leader-election/blob/master/src/main/resources/leader-dies.png)
+<br>
+<br>
+
+
+A worker node dies, it's successor registers new watcher
+![image 3](https://github.com/jtn-b/leader-election/blob/master/src/main/resources/worker-dies.png)
+<br>
+
+
 # Apache Zookeeper
 
 
